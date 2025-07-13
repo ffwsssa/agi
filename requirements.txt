@@ -1,0 +1,31 @@
+# A2A & Agentverse Integration Demo Dependencies
+
+# Web framework and server
+fastapi>=0.68.0
+uvicorn>=0.15.0
+
+# HTTP client
+httpx>=0.24.0
+
+# Data classes (Python 3.7+ built-in, but included for clarity)
+dataclasses>=0.6; python_version<"3.7"
+
+# Async support
+asyncio-mqtt>=0.11.0
+
+# Logging and utilities
+colorama>=0.4.4
+python-dateutil>=2.8.2
+
+# Optional: For real API integrations
+requests>=2.28.0
+
+# Optional: For production deployment
+gunicorn>=20.1.0
+
+# Optional: For development and testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+
+# Optional: For enhanced logging
+structlog>=22.1.0
